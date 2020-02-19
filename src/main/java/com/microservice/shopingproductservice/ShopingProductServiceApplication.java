@@ -8,6 +8,8 @@ public class ShopingProductServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ShopingProductServiceApplication.class, args);
+
+
     }
 
 }
