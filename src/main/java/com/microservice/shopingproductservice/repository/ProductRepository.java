@@ -1,6 +1,6 @@
-package repository;
+package com.microservice.shopingproductservice.repository;
 
-import model.Product;
+import com.microservice.shopingproductservice.model.Product;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

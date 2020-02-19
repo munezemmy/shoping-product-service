@@ -1,7 +1,7 @@
-package service;
+package com.microservice.shopingproductservice.service;
 
 
-import model.Product;
+import com.microservice.shopingproductservice.model.Product;
 
 import java.util.List;
 

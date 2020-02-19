@@ -1,10 +1,10 @@
-package serviceImp;
+package com.microservice.shopingproductservice.serviceImp;
 
-import model.Product;
+import com.microservice.shopingproductservice.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ProductRepository;
-import service.ProductService;
+import com.microservice.shopingproductservice.repository.ProductRepository;
+import com.microservice.shopingproductservice.service.ProductService;
 
 import java.util.List;
 

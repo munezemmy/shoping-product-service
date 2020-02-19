@@ -1,4 +1,4 @@
-package model;
+package com.microservice.shopingproductservice.model;
 
 import lombok.Data;
 

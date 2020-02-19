@@ -1,9 +1,9 @@
-package controller;
+package com.microservice.shopingproductservice.controller;
 
-import model.Product;
+import com.microservice.shopingproductservice.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.ProductService;
+import com.microservice.shopingproductservice.service.ProductService;
 
 import java.util.List;
 
@@ -25,9 +25,14 @@ public class ProductController {
         return productService.getAllProducts();
     }
 
-    @PostMapping("/products")
+    @PostMapping("products")
     public Product saveProduct(@RequestBody Product product) {
 
         return productService.saveProduct(product);
+    }
+
+    @GetMapping("/test")
+    public String test(){
+        return "hello this a test";
     }
 }
